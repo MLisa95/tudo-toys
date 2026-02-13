@@ -1,0 +1,14 @@
+{
+  "name": "tudo-toys",
+  "version": "1.0.0",
+  "description": "Toy ordering website for daycares",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}

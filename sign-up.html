@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo Toys</title>
+    <meta name="author" content="Lisakhanya Masiza">
+    <link rel="stylesheet" href="styles/base.css">
+    <script type="module" src="scripts/library.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/tudo-toys-logo.png" alt="Logo of Tudo Toys">
+        <span>Tudo Toys</span>
+        <nav class="nav">
+            <a href="index.html">Home</a></li>
+            <a href="about-us">About Us</a>
+            <a href="toy-library.html" class="active">Library</a>
+            <a href="join-us.html">Join Us</a>
+        </nav>
+
+        <a href="basket.html" class="basket-icon"><img src="images/basket-icon.svg" alt="Icon for Basket Items"></a>
+    </header>
+
+    <main>
+        <form id="myForm">
+            <fieldset>
+                <legend>School Details</legend>
+                <label for="name">School Name:</label>
+                <input type="name" id="schoolName" name="name" required>
+
+                <label for="address">School Address:</label>
+                <input type="address" id="schoolAddress" name="address">
+
+                <label for="number">School Number:</label>
+                <input type="number" id="schoolNumber" max="10" required>
+
+                <label for="email">School Email:</label>
+                <input type="email" id="schoolEmail" required placeholder="school@email.edu">
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

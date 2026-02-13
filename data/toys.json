@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Small Plastic Car",
+        "description": "A small plastic car for imaginative play.",
+        "skills": [
+            "fine motor",
+            "imaginative play"
+        ],
+        "image": "images/toy-car-small.png",
+        "listPrice": 5.45
+    },
+    {
+        "id": 2,
+        "name": "Rubber Duck",
+        "description": "Classic rubber duck for bath time fun.",
+        "skills": [
+            "sensory",
+            "imaginative play"
+        ],
+        "image": "images/rubber-duck.png",
+        "listPrice": 3.99
+    },
+    {
+        "id": 3,
+        "name": "Train with Hammer and Wooden Balls",
+        "description": "Train with hammer to knock balls through holes and pieces to fit.",
+        "skills": [
+            "hand-eye coordination",
+            "problem solving",
+            "fine motor"
+        ],
+        "image": "images/knock-train.png",
+        "listPrice": 23.99
+    },
+    {
+        "id": 4,
+        "name": "Green Cuddle Dinosaur",
+        "description": "Soft green dinosaur for hugging and comfort.",
+        "skills": [
+            "emotional development",
+            "sensory"
+        ],
+        "image": "images/cuddle-dinosaur.png",
+        "listPrice": 13.99
+    },
+    {
+        "id": 5,
+        "name": "Baby Rattle",
+        "description": "Light and colorful rattle for infants.",
+        "skills": [
+            "sensory",
+            "auditory development",
+            "fine motor"
+        ],
+        "image": "images/baby-rattle.png",
+        "listPrice": 4.59
+    },
+    {
+        "id": 6,
+        "name": "Train with Wooden Pegs and Geometric Pieces",
+        "description": "Train with wooden pegs and shapes (pentagon, square, triangle) to fit in.",
+        "skills": [
+            "shape recognition",
+            "problem solving",
+            "fine motor"
+        ],
+        "image": "images/block-stack-train.png",
+        "listPrice": 27.99
+    },
+    {
+        "id": 7,
+        "name": "Lego",
+        "description": "Lego blocks for building imaginations.",
+        "skills": [
+            "numeracy",
+            "fine motor",
+            "hand-eye coordination"
+        ],
+        "image": "images/lego.png",
+        "listPrice": 32.99
+    },
+    {
+        "id": 8,
+        "name": "Xylophone",
+        "description": "Colorful xylophone to explore music and sounds.",
+        "skills": [
+            "auditory development",
+            "fine motor",
+            "creativity"
+        ],
+        "image": "images/xylophone.png",
+        "listPrice": 43.99
+    },
+    {
+        "id": 9,
+        "name": "Wooden Puzzle with Plastic Wires",
+        "description": "Puzzle with 5-6 plastic wires to move pieces from one side to the other.",
+        "skills": [
+            "problem solving",
+            "hand-eye coordination",
+            "spatial awareness"
+        ],
+        "image": "images/wooden-puzzle.png",
+        "listPrice": 31.99
+    }
+]
