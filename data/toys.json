@@ -8,7 +8,8 @@
             "imaginative play"
         ],
         "image": "images/toy-car-small.png",
-        "listPrice": 5.45
+        "listPrice": 5.45,
+        "category": "toys"
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
             "imaginative play"
         ],
         "image": "images/rubber-duck.png",
-        "listPrice": 3.99
+        "listPrice": 3.99,
+        "category": "toys"
     },
     {
         "id": 3,
@@ -31,7 +33,8 @@
             "fine motor"
         ],
         "image": "images/knock-train.png",
-        "listPrice": 23.99
+        "listPrice": 23.99,
+        "category": "toys"
     },
     {
         "id": 4,
@@ -42,7 +45,8 @@
             "sensory"
         ],
         "image": "images/cuddle-dinosaur.png",
-        "listPrice": 13.99
+        "listPrice": 13.99,
+        "category": "toys"
     },
     {
         "id": 5,
@@ -54,7 +58,8 @@
             "fine motor"
         ],
         "image": "images/baby-rattle.png",
-        "listPrice": 4.59
+        "listPrice": 4.59,
+        "category": "toys"
     },
     {
         "id": 6,
@@ -66,7 +71,8 @@
             "fine motor"
         ],
         "image": "images/block-stack-train.png",
-        "listPrice": 27.99
+        "listPrice": 27.99,
+        "category": "toys"
     },
     {
         "id": 7,
@@ -78,7 +84,8 @@
             "hand-eye coordination"
         ],
         "image": "images/lego.png",
-        "listPrice": 32.99
+        "listPrice": 32.99,
+        "category": "toys"
     },
     {
         "id": 8,
@@ -103,5 +110,113 @@
         ],
         "image": "images/wooden-puzzle.png",
         "listPrice": 31.99
+    },
+    {
+        "id": 10,
+        "name": "The Magical Forest",
+        "description": "A whimsical adventure through an enchanted forest filled with friendly creatures.",
+        "skills": ["imagination", "reading comprehension", "emotional development"],
+        "image": "images/book-1.png",
+        "listPrice": 9.99,
+        "category": "books"
+    },
+    {
+        "id": 11,
+        "name": "Dino Adventure",
+        "description": "Join colorful dinosaurs on a thrilling journey of discovery and teamwork.",
+        "skills": ["curiosity", "problem solving", "teamwork"],
+        "image": "images/book-2.png",
+        "listPrice": 10.50,
+        "category": "books"
+    },
+    {
+        "id": 12,
+        "name": "ABC Alphabet Book",
+        "description": "A bright and playful introduction to letters and early literacy skills.",
+        "skills": ["literacy", "letter recognition", "vocabulary building"],
+        "image": "images/book-3.png",
+        "listPrice": 8.75,
+        "category": "books"
+    },
+    {
+        "id": 13,
+        "name": "Under the Sea",
+        "description": "Dive into the ocean and explore sea creatures in this colorful learning book.",
+        "skills": ["cognitive skills", "memory", "science awareness"],
+        "image": "images/book-4.png",
+        "listPrice": 11.20,
+        "category": "books"
+    },
+    {
+        "id": 14,
+        "name": "Space Explores",
+        "description": "Blast off into space and learn about planets, rockets, and stars.",
+        "skills": ["curiosity", "science learning", "imagination"],
+        "image": "images/book-5.png",
+        "listPrice": 12.00,
+        "category": "books"
+    },
+    {
+        "id": 15,
+        "name": "Animal Friends",
+        "description": "Meet adorable animal friends while learning about kindness and friendship.",
+        "skills": ["emotional development", "empathy", "reading comprehension"],
+        "image": "images/book-6.png",
+        "listPrice": 9.50,
+        "category": "books"
+    },
+    {
+        "id": 16,
+        "name": "Wooden Jigsaw 12 pcs",
+        "description": "A colorful wooden jigsaw puzzle to develop problem-solving skills.",
+        "skills": ["problem solving", "fine motor", "spatial awareness"],
+        "image": "images/puzzle-1.png",
+        "listPrice": 12.50,
+        "category": "puzzles"
+    },
+    {
+        "id": 17,
+        "name": "Alphabet Puzzle",
+        "description": "Bright alphabet puzzle helps children learn letters and hand-eye coordination.",
+        "skills": ["cognitive skills", "hand-eye coordination", "literacy"],
+        "image": "images/puzzle-2.png",
+        "listPrice": 15.00,
+        "category": "puzzles"
+    },
+    {
+        "id": 18,
+        "name": "Animal Matching Puzzle 12PC",
+        "description": "Match animals with their habitats in this fun logic puzzle.",
+        "skills": ["logic", "problem solving", "memory"],
+        "image": "images/puzzle-3.png",
+        "listPrice": 14.20,
+        "category": "puzzles"
+    },
+    {
+        "id": 19,
+        "name": "Number Puzzle",
+        "description": "Colorful number puzzle for ages 4-7 to improve counting and number recognition.",
+        "skills": ["math skills", "cognitive skills", "memory"],
+        "image": "images/puzzle-4.png",
+        "listPrice": 13.75,
+        "category": "puzzles"
+    },
+    {
+        "id": 20,
+        "name": "Shape Sorting Puzzle",
+        "description": "Learn shapes and colors with this engaging puzzle for toddlers.",
+        "skills": ["shape recognition", "fine motor", "color recognition"],
+        "image": "images/puzzle-5.png",
+        "listPrice": 11.80,
+        "category": "puzzles"
+    },
+    {
+        "id": 21,
+        "name": "3D Cube Puzzle",
+        "description": "Challenging 3D cube puzzle to enhance spatial reasoning and focus.",
+        "skills": ["spatial awareness", "logic", "problem solving"],
+        "image": "images/puzzle-6.png",
+        "listPrice": 17.50,
+        "category": "puzzles"
     }
 ]

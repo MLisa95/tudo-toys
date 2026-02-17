@@ -7,7 +7,7 @@ import { getLocalStorage, setLocalStorage } from "./utilis.mjs";
 
 const BASKET_KEY = "tudo-basket";
 
-// 1. fetch data from .json
+// 1. fetch toys from .json
 export async function getToys() {
     const response = await fetch("./data/toys.json");
     const toys = await response.json();
