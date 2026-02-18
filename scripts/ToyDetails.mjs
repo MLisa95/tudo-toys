@@ -15,15 +15,14 @@ export async function getToys() {
 }
 
 // 2. put toys in container (possibilities: DETAIL PAGE and BASKET/CART = REUSABLE
-export async function showToys(containerSelector) {
+export async function showToys(toysList, containerSelector) {
     const container = document.querySelector(containerSelector);
-    const toys = await getToys();
 
     // clear container each time for new
     container.innerHTML = "";
 
     // loop through toys and create HTML
-    toys.forEach((toy) => {
+    toysList.forEach((toy) => {
         // create card container
         const toyCard = document.createElement("div");
         toyCard.classList.add("toy-card");
@@ -49,3 +48,5 @@ export function addToBasket(toy) {
     basket.push(toy); // add selected toy to array
     setLocalStorage(BASKET_KEY, basket);
 }
+
+
