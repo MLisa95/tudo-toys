@@ -27,10 +27,10 @@ export async function showToys(toysList, containerSelector) {
         const toyCard = document.createElement("div");
         toyCard.classList.add("toy-card");
         toyCard.innerHTML = `
-        <img src="${toy.image}" alt="${toy.name}">
+        <img class="toy-image" src="${toy.image}" alt="${toy.name}">
         <h3>${toy.name}</h3>
         <p>${toy.description}</p>
-        <p><strong>Skills:</strong> ${toy.skills.join(", ")}</p>
+        <p class="skills"><strong>Skills:</strong> ${toy.skills.join(", ")}</p>
         <p>Price: R${toy.listPrice.toFixed(2)}</p>
         <button data-id="${toy.id}">Add to Basket</button>
         `;

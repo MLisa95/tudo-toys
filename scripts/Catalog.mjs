@@ -21,23 +21,23 @@ function getAllCategories(toys) {
 }
 
 // building categories
-export function buildCategories(toys) {
-  const categories = getAllCategories(toys);
-  const categorySelect = document.getElementById("categoryFilter"); 
+// export function buildCategories(toys) {
+//   const categories = getAllCategories(toys);
+//   const categorySelect = document.getElementById("categoryFilter"); 
 
-  // default option
-  const defaultOption = document.createElement("option");
-  defaultOption.value = "all";
-  defaultOption.textContent = "All Categories";
-  categorySelect.appendChild(defaultOption);
+//   // default option
+//   const defaultOption = document.createElement("option");
+//   defaultOption.value = "all";
+//   defaultOption.textContent = "All Categories";
+//   categorySelect.appendChild(defaultOption);
   
-  categories.forEach(category => {
-    const option = document.createElement("option");
-    option.value = category;
-    option.textContent = category.charAt(0).toUpperCase() + category.slice(1); // capitalize first letter
-    categorySelect.appendChild(option);
-  });
-}
+//   categories.forEach(category => {
+//     const option = document.createElement("option");
+//     option.value = category;
+//     option.textContent = category.charAt(0).toUpperCase() + category.slice(1); // capitalize first letter
+//     categorySelect.appendChild(option);
+//   });
+// }
 
 // building skills
 export function buildSkills(toys) {

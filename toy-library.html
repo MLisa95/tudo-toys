@@ -29,15 +29,31 @@
     </header>
 
     <main>
-        <div class="filter-container">
-            <label for="category">Filter by Category:</label>
-            <select id="categoryFilter"></select>
+        <h1>Browse Through Our Toys</h1>
 
-            <label for="category">Filter by Skill:</label>
-            <select id="skillFilter"></select>
+        <!-- Filters -->
+        <div class="filter-container">
+            <label for="skillFilter">Filter by Skills:</label>
+            <select id="skillFilter">
+                <!-- <option value="all">All Skills</option> -->
+            </select>
         </div>
 
+        <div class="categories">
+        <!-- URLSearchParams to choose specific category items to show -->
+        <!-- can later expand to include learning materials such as charts -->
+            <a href="toy-library.html?category=books">
+                <img src="images/books-icon.png" alt="Icon of a Book"/>Books</a>
+            <a href="toy-library.html?category=toys">
+                <img src="images/toys-icon.png" alt="Icon for Toys"/>Toys</a>
+            <a href="toy-library.html?category=puzzles">
+                <img src="images/puzzles-icon.png" alt="Icon for Puzzles"/>Puzzles</a>
+        </div>
+
+
+        <!-- Container for cards -->
         <div class="toyContainer"></div>
+
     </main>
 </body>
 
